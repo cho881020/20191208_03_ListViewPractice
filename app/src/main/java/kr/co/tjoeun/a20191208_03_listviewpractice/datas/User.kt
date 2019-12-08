@@ -6,4 +6,6 @@ class User(inputName:String, inputAddress:String, isWomenOk:Boolean) {
     var address = inputAddress
     var isWomen = isWomenOk
 
+    constructor() :  this("미정", "거주지 불명", false)
+
 }
