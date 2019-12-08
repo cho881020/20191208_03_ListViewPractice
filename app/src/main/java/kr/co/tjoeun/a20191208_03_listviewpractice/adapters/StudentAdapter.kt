@@ -22,6 +22,9 @@ class StudentAdapter(context:Context, resId:Int, list:ArrayList<User>) : ArrayAd
 
         var tempRow = convertView
         if (tempRow == null) {
+
+            Log.d("새로 뷰 그리기", "inflate실행됨")
+
             tempRow = inf.inflate(R.layout.student_list_item, null)
         }
 
