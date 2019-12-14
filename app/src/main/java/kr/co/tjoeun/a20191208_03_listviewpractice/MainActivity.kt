@@ -10,6 +10,8 @@ import kr.co.tjoeun.a20191208_03_listviewpractice.adapters.UserAdapter
 import kr.co.tjoeun.a20191208_03_listviewpractice.datas.User
 
 class MainActivity : AppCompatActivity() {
+    
+//    테스트용 주석
 
     var studentAdapter:StudentAdapter? = null
 
