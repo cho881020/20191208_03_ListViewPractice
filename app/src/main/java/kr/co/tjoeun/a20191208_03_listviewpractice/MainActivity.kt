@@ -23,6 +23,7 @@ class MainActivity : AppCompatActivity() {
 
     var userAdapter:UserAdapter? = null
 
+//    액티비티의 시작점
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
