@@ -13,8 +13,10 @@ class MainActivity : AppCompatActivity() {
     
 //    테스트용 주석
 
+//    학생 어댑터 변수
     var studentAdapter:StudentAdapter? = null
 
+//    학생 목록 저장 배열
     val studentList = ArrayList<User>()
 
     val secondStudentList = ArrayList<User>()
